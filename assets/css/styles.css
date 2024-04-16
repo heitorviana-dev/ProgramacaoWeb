@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+#principal{
+    display: flex;
+    justify-content: center;
+    margin: 250px;
+    background-color: white;
+    padding-bottom: 500px;
+    border-radius: 2ch;
+    flex-direction: column;
+}
+
+#valores{
+    display: flex;
+    flex-direction: column;
+}
+
+#resultadoDiv{
+    display: none;
+}
+
+#resultadoSoma{
+    font-size: 35px;
+    margin: 30px;
+}
+
+.inputs{
+    margin: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+
+body{
+    background-color: rgba(117, 71, 95, 0.904);
+}
+
+label{
+    font-size: 25px;
+}
+
+button{
+    width: 100px;
+    padding: 5px;
+    margin: 50px 20px 50px 20px;
+}
+
+h2{
+    margin-left: 10px;
+}
+

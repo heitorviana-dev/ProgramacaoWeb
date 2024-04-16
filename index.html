@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soma</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <div id="principal">
+        <h1>Somar</h1>
+        <div>
+            <form action="/" method="get" id="valores">
+                <div class="inputs">
+                    <label for="value1">Digite o primeiro valor: </label>
+                    <input type="number" name="valor1" id="value1">
+                </div>
+
+                <div class="inputs">
+                    <label for="value2">Digite o segundo valor: </label>
+                    <input type="number" name="valor1" id="value2">
+                </div>
+                
+                <button type="submit">Somar</button>
+            </form>
+        </div>
+        <div id="resultadoDiv">
+            <h2>Resultado:</h2>
+            <p id="resultadoSoma"></p>
+        </div>
+    </div>
+
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
